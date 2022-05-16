@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dom</title>
+
+</head>
+<body>
+    <img id="ligh" src="img/off.gif"><br>
+
+    <div class="cls">传智教育</div><br>
+    <div class="cls">程序员</div><br>
+
+    <input type="checkbox" name="hoby">电影
+    <input type="checkbox" name="hoby">旅游
+    <input type="checkbox" name="hoby">游戏<br>
+
+
+    <script>
+        var img = document.getElementById("ligh")
+        alert(img)
+
+        var divs = document.getElementsByTagName("div")
+        alert(divs.length)
+
+        var hobbys = document.getElementsByName("hoby")
+        alert(hobbys.length)
+
+        var clss = document.getElementsByClassName("cls")
+        alert(clss.length)
+    </script>
+</body>
+</html>

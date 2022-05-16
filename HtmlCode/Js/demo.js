@@ -1,0 +1,1 @@
+alert("hello js 第二种")

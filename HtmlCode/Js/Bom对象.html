@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bom</title>
+</head>
+<body>
+
+    <script>
+       /* //// confirm 点击确认 返回true 取消false
+        var result = confirm(`确认删除吗？`)
+        if (result){
+            //删除逻辑
+        }*/
+
+       /*
+       setTimeout :在一定时间间隔之后执行function 只执行一次
+       setInterval：在一定时间间隔之后执行function 循环执行
+        */
+       setTimeout(function (){
+           alert("三秒出现")
+       },3000)
+
+       setInterval(
+           function (){
+               alert("两秒出现")
+           },2000)
+    </script>
+</body>
+</html>

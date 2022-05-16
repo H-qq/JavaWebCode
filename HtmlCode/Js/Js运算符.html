@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+/*    var age1 =20;
+    var age2 = '20';
+    alert(age2 == age1)   // true 先去判断是否一样 如果不一样进行类型转换 再去比较值
+    alert(age1 === age2)  // false 直接比较 不会进行类型转换*/
+
+    /*
+    类型转换：
+            *其它类型转number
+                1、string : 按照字符串字面值，转为数字，如果字面值不是数组 转为NaN
+                一般使用 parseInt（）
+                2、boolean： true 转为1 false 0  用 +true 表示转换
+            *其它类型转换boolean
+                1、number：0和NaN转换为false，其他为true
+                2、string：空字符串为false 其他为true
+                3、null：false
+                4、undefined：false
+
+     */
+    var str = true;
+    alert(+str+1)
+
+    var flag = 0;
+    if("123"){
+        alert("转换为t")
+    }else {
+        alert("false")
+    }
+</script>
+</body>
+</html>

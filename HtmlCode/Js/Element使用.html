@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Element</title>
+</head>
+<body>
+    <img id="ligh" src="img/off.gif"><br>
+
+    <div class="cls">传智教育</div><br>
+    <div class="cls">程序员</div><br>
+
+    <input type="checkbox" name="hoby">电影
+    <input type="checkbox" name="hoby">旅游
+    <input type="checkbox" name="hoby">游戏<br>
+
+    <script>
+        var img = document.getElementById("ligh")
+        img.src = "img/on.gif";
+
+        var divs = document.getElementsByTagName("div");
+        /*
+        style：设置css样式
+        innerHtml 改变样式
+         */
+        for (let i =0;i<divs.length;i++){
+            //divs[i].style.color = "red"
+            divs[i].innerHTML = "我变了"
+        }
+
+        var honbby =  document.getElementsByName("hoby")
+        for (let i = 0; i < honbby.length; i++) {
+            honbby[i].checked  = true;
+        }
+
+    </script>
+
+</body>
+
+</html>
