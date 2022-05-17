@@ -28,7 +28,7 @@
             <%--<td>${brand.id}</td>--%>
             <td>${status.count}</td>
             <td>${brand.brandName}</td>
-            <td>${brand.companyName}</td>
+            <td>${brand.coanyName}</td>
             <td>${brand.ordered}</td>
             <td>${brand.description}</td>
             <c:if test="${brand.status == 1}">
