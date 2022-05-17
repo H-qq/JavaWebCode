@@ -38,14 +38,14 @@
                 <td>禁用</td>
             </c:if>
 
-            <td><a href="/example1/selectByIdServlet?id=${brand.id}">修改</a> <a href="/example1/deleteByIdServlet?id=${brand.id}">删除</a></td>
+            <td><a href="/example3/selectByIdServlet?id=${brand.id}">修改</a> <a href="/example3/deleteByIdServlet?id=${brand.id}">删除</a></td>
         </tr>
 
     </c:forEach>
 </table>
 <script>
     document.getElementById("add").onclick =  function (){
-        location.href="/example1/addBrand.jsp";
+        location.href="/example3/addBrand.jsp";
     }
 </script>
 </body>

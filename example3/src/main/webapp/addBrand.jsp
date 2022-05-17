@@ -16,7 +16,7 @@
 </head>
 <body>
 <h3>添加品牌</h3>
-<form action="/example1/addServlet" method="post">
+<form action="/example3/addServlet" method="post">
     品牌名称：<input name="brandName"><br>
     企业名称：<input name="companyName"><br>
     排序：<input name="ordered"><br>

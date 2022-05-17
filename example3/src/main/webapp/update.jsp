@@ -17,7 +17,7 @@
 </head>
 <body>
 <h3>修改品牌</h3>
-<form action="/example1/updateServlet" method="post">
+<form action="/example3/updateServlet" method="post">
 
     <%--隐藏域--%>
     <input type="hidden" name="id" value="${brand.id}">
