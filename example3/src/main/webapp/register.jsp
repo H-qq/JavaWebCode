@@ -30,7 +30,7 @@
                 <td class="inputs">
                     <input name="username" type="text" id="username">
                     <br>
-                    <span id="username_err" class="err_msg">${register_msg}</span>
+                    <span id="username_err" class="err_msg" style="display: none">${register_msg}</span>
                 </td>
 
             </tr>
@@ -62,6 +62,7 @@
         <br class="clear">
     </form>
 <script>
+
     document.getElementById("changeImg").onclick = function (){
 
         document.getElementById("checkCodeImg").src="/example3/checkCodeServlet?"+new Date().getMilliseconds()

@@ -39,4 +39,10 @@ public class UserService {
         sqlSession.close();
         return u==null;
     }
+    public boolean selectByName(String username){
+        SqlSession sqlSession = sqlSessionFactory.openSession();
+        UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
+        User u = userMapper.selectByUsername(username);
+        return u != null;
+    }
 }

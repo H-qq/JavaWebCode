@@ -19,6 +19,7 @@
     <title>Title</title>
 </head>
 <body>
+<div id="app">
 <input type="button" value="新增"><br>
 <hr>
 <table border="1" cellspacing="0" width="800">
@@ -62,7 +63,18 @@
     %>
 
 </table>
+</div>
+<script src="js/axios-0.18.0.js"></script>
+<script src="js/vue.js"></script>
+<script>
+    new Vue({
+        el:"#app",
+        mounted(){
+            //去发送异步请求查询数据
 
+        }
+    })
+</script>
 </body>
 </html>
 
